@@ -521,6 +521,14 @@ video {
   height: 100vh;
 }
 
+.min-w-\[20\.5rem\] {
+  min-width: 20.5rem;
+}
+
+.max-w-\[26rem\] {
+  max-width: 26rem;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -533,6 +541,10 @@ video {
   justify-content: center;
 }
 
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
 .bg-pale-blue {
   --tw-bg-opacity: 1;
   background-color: hsl(225 100% 94% / var(--tw-bg-opacity));
@@ -542,8 +554,8 @@ video {
   background-image: url('../images/pattern-background-mobile.svg');
 }
 
-.bg-cover {
-  background-size: cover;
+.bg-contain {
+  background-size: contain;
 }
 
 .bg-no-repeat {
@@ -552,6 +564,17 @@ video {
 
 .text-\[16px\] {
   font-size: 16px;
+}
+
+.shadow-2xl {
+  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-dark-blue\/30 {
+  --tw-shadow-color: hsl(223 47% 23% / 0.3);
+  --tw-shadow: var(--tw-shadow-colored);
 }
 
 @media (min-width: 768px) {
