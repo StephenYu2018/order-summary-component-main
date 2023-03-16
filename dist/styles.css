@@ -567,6 +567,10 @@ video {
   background-repeat: no-repeat;
 }
 
+.font-display {
+  font-family: 'Red Hat Display', sans-serif;
+}
+
 .text-\[16px\] {
   font-size: 16px;
 }
