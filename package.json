@@ -4,7 +4,7 @@
   "description": "![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)",
   "main": "index.js",
   "scripts": {
-    "build": "npx tailwindcss -i ./styles.css -o ./dist/styles.css --watch",
+    "build": "npx tailwindcss -i ./styles.css -o ./dist/styles.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

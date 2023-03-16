@@ -513,23 +513,49 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.font-display {
-  font-family: 'Red Hat Display', sans-serif;
+.flex {
+  display: flex;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.bg-pale-blue {
+  --tw-bg-opacity: 1;
+  background-color: hsl(225 100% 94% / var(--tw-bg-opacity));
+}
+
+.bg-mobile {
+  background-image: url('../images/pattern-background-mobile.svg');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
 }
 
 .text-\[16px\] {
   font-size: 16px;
 }
 
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-
-.font-medium {
-  font-weight: 500;
-}
-
-.font-bold {
-  font-weight: 700;
+@media (min-width: 768px) {
+  .md\:bg-desktop {
+    background-image: url('../images/pattern-background-desktop.svg');
+  }
 }
