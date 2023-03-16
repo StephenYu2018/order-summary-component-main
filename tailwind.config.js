@@ -9,6 +9,9 @@ module.exports = {
       "desaturated-blue": "hsl(224, 23%, 55%)",
       "dark-blue": "hsl(223, 47%, 23%)"
     },
+    fontFamily: {
+      display: ["\'Red Hat Display\'", "sans-serif"],
+    },
     extend: {},
   },
   plugins: [],
