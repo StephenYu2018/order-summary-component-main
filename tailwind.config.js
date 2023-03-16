@@ -12,7 +12,12 @@ module.exports = {
     fontFamily: {
       display: ["\'Red Hat Display\'", "sans-serif"],
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "mobile": "url(./images/pattern-background-mobile.svg)",
+        "desktop": "url(./images/pattern-background-desktop.svg)",
+      }
+    },
   },
   plugins: [],
 }
