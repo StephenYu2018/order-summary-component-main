@@ -656,6 +656,10 @@ video {
   font-weight: 500;
 }
 
+.leading-6 {
+  line-height: 1.5rem;
+}
+
 .text-bright-blue {
   --tw-text-opacity: 1;
   color: hsl(245 75% 52% / var(--tw-text-opacity));
@@ -680,8 +684,8 @@ video {
   text-decoration-line: underline;
 }
 
-.decoration-2 {
-  text-decoration-thickness: 2px;
+.decoration-1 {
+  text-decoration-thickness: 1px;
 }
 
 .shadow-2xl {
