@@ -708,9 +708,9 @@ video {
   color: hsl(224 23% 55% / var(--tw-text-opacity));
 }
 
-.text-white {
+.text-pale-blue {
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  color: hsl(225 100% 94% / var(--tw-text-opacity));
 }
 
 .underline {
@@ -719,6 +719,10 @@ video {
 
 .decoration-1 {
   text-decoration-thickness: 1px;
+}
+
+.underline-offset-2 {
+  text-underline-offset: 2px;
 }
 
 .shadow-2xl {
