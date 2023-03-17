@@ -734,13 +734,13 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.shadow-bright-blue\/20 {
-  --tw-shadow-color: hsl(245 75% 52% / 0.2);
+.shadow-bright-blue\/50 {
+  --tw-shadow-color: hsl(245 75% 52% / 0.5);
   --tw-shadow: var(--tw-shadow-colored);
 }
 
-.shadow-bright-blue\/50 {
-  --tw-shadow-color: hsl(245 75% 52% / 0.5);
+.shadow-dark-blue\/20 {
+  --tw-shadow-color: hsl(223 47% 23% / 0.2);
   --tw-shadow: var(--tw-shadow-colored);
 }
 
