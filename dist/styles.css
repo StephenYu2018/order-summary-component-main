@@ -630,23 +630,18 @@ video {
   font-family: 'Red Hat Display', sans-serif;
 }
 
-.text-\[16px\] {
-  font-size: 16px;
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
+.text-\[16px\] {
+  font-size: 16px;
 }
 
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
 }
 
 .font-black {
