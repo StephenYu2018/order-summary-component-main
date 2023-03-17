@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- [Add solution URL here]()
+- [Solution](https://www.frontendmentor.io/solutions/order-summary-component-tailwindcss-P_Z8NrErPV)
 - [Live site](https://stephenyu2018.github.io/order-summary-component-main/)
 
 ## My process
