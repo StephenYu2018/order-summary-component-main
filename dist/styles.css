@@ -744,6 +744,25 @@ video {
   --tw-shadow: var(--tw-shadow-colored);
 }
 
+.hover\:bg-active-bright-blue:hover {
+  --tw-bg-opacity: 1;
+  background-color: hsl(245 75% 65% / var(--tw-bg-opacity));
+}
+
+.hover\:text-active-bright-blue:hover {
+  --tw-text-opacity: 1;
+  color: hsl(245 75% 65% / var(--tw-text-opacity));
+}
+
+.hover\:text-dark-blue:hover {
+  --tw-text-opacity: 1;
+  color: hsl(223 47% 23% / var(--tw-text-opacity));
+}
+
+.hover\:no-underline:hover {
+  text-decoration-line: none;
+}
+
 @media (max-width: 535px) {
   .max-\[535px\]\:w-\[86vw\] {
     width: 86vw;
@@ -802,10 +821,6 @@ video {
 
   .sm\:tracking-wide {
     letter-spacing: 0.025em;
-  }
-
-  .sm\:underline-offset-2 {
-    text-underline-offset: 2px;
   }
 }
 
