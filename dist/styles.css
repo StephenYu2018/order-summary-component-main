@@ -521,8 +521,8 @@ video {
   height: auto;
 }
 
-.h-full {
-  height: 100%;
+.h-screen {
+  height: 100vh;
 }
 
 .w-full {
@@ -621,8 +621,8 @@ video {
   background-size: contain;
 }
 
-.bg-no-repeat {
-  background-repeat: no-repeat;
+.bg-repeat-x {
+  background-repeat: repeat-x;
 }
 
 .p-4 {
