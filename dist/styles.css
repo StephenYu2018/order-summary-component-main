@@ -549,6 +549,10 @@ video {
   justify-content: center;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
 .rounded-lg {
   border-radius: 0.5rem;
 }
@@ -601,6 +605,10 @@ video {
 
 .text-center {
   text-align: center;
+}
+
+.text-right {
+  text-align: right;
 }
 
 .font-display {
@@ -662,8 +670,8 @@ video {
   text-decoration-line: underline;
 }
 
-.decoration-1 {
-  text-decoration-thickness: 1px;
+.decoration-2 {
+  text-decoration-thickness: 2px;
 }
 
 .shadow-2xl {
