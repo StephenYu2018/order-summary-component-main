@@ -513,6 +513,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
 }
@@ -550,9 +554,24 @@ video {
   border-top-right-radius: 0.75rem;
 }
 
+.bg-bright-blue {
+  --tw-bg-opacity: 1;
+  background-color: hsl(245 75% 52% / var(--tw-bg-opacity));
+}
+
 .bg-pale-blue {
   --tw-bg-opacity: 1;
   background-color: hsl(225 100% 94% / var(--tw-bg-opacity));
+}
+
+.bg-very-pale-blue {
+  --tw-bg-opacity: 1;
+  background-color: hsl(225 100% 98% / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .bg-mobile {
@@ -567,12 +586,71 @@ video {
   background-repeat: no-repeat;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .font-display {
   font-family: 'Red Hat Display', sans-serif;
 }
 
 .text-\[16px\] {
   font-size: 16px;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.font-black {
+  font-weight: 900;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.text-bright-blue {
+  --tw-text-opacity: 1;
+  color: hsl(245 75% 52% / var(--tw-text-opacity));
+}
+
+.text-dark-blue {
+  --tw-text-opacity: 1;
+  color: hsl(223 47% 23% / var(--tw-text-opacity));
+}
+
+.text-desaturated-blue {
+  --tw-text-opacity: 1;
+  color: hsl(224 23% 55% / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.underline {
+  text-decoration-line: underline;
+}
+
+.decoration-1 {
+  text-decoration-thickness: 1px;
 }
 
 .shadow-2xl {
